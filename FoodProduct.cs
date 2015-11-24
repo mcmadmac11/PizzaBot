@@ -1,7 +1,7 @@
 ﻿using System;
 namespace PizzaBot
 {     
-    public abstract class FoodProduct: IAmEdible
+    public abstract class FoodProduct
     { 
 
         public abstract void Consumed();

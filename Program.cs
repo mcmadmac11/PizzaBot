@@ -9,11 +9,14 @@ namespace PizzaBot
     class Program
 
     {
-        public static Pizza PizzaType1 { get; private set; }
+        public static Pizza PizzaType { get; private set; }
 
         static void Main(string[] args)
         {
-            PizzaType1 = new Pizza();
+            PizzaType pizza = new PizzaType();
+            Console.WriteLine("What would you like on your pizza");
+            Conole.ReadLine("What would you like on your pizza?");
+              
 
         }
     }
